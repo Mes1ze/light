@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*!
+Theme Name: light
+Theme URI: http://underscores.me/
+Author: YourStartUp
+Author URI: http://your-startup.space
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: light
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+light is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+body {
+	margin: 0;
+	background: black;
+}
+html {
+	position: absolute;
+	width: 1440px;
+	height: 900px;
+}
+header {
+	box-sizing: border-box;
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.menu{
+	position: absolute;
+}
+
+nav {
+	align-items: center;
+	text-align: center;
+	width: 538px;
+	height: 27px;
+	left: 451px;
+	top: 26px;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav {
+	display: block;
+	width: 660px;
+  	margin: 0 auto;
+  	padding: 0;
+}
+.main-navigation {
+	top: 26px;
+	position: absolute;
+	overflow: hidden;
+	justify-content: center;
+	text-align: center;
+}
+.main-navigation ul {
+	margin: 0 auto;
+	padding: 0;
+
+}
+.main-navigation li {
+	display: inline-block;
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	margin-right: 30px;
+}
+
+.main-navigation a {
+	line-height: 27px;
+	float: left;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.site-branding {
+	position: absolute;
+	left: 100px;
+	top: 18px;
+}
+.site-phone a{
+	position: absolute;
+	width: 30px;
+	height: 29px;
+	left: 1153px;
+	top: 25px;
+}
+.site-phone{
+	position: absolute;
+	width: 30px;
+	height: 29px;
+	left: 1153px;
+	top: 27px;
+	border-radius: 50%;
+	background: #FFFFFF;
+}
+.phone {
+	position: absolute;
+	width: 143px;
+	height: 27px;
+	right: 100px;
+	top: 5px;
+	
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	color: rgba(255, 255, 255, 0.5);
+}
+h1 {
+	position: absolute;
+width: 1185px;
+height: 188px;
+left: 100px;
+top: 200px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 78px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.light {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 111px;
+
+	color: rgb(244, 185, 112);
+}
+.under-light {
+	position: absolute;
+	width: 421px;
+	height: 48px;
+	left: 104px;
+	top: 440px;
+	
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	
+	color: rgba(255, 255, 255, 0.8);
+}
+div.photo{
+	box-sizing: border-box;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 520px;
+	top: 480px;
+}
+div.black{
+	box-sizing: border-box;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	left: 560px;
+	top: 520px;
+}
+div.txt-krug {
+	top: 608px;
+	position: absolute;
+	width: 213px;
+	height: 48px;
+	left: 613px;
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+.free {
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: rgb(244, 185, 112);
+}
+.btn {
+	position: absolute;
+	justify-content: center;
+	width: 180px;
+	height: 50px;
+	left: 630px;
+	top: 750px;
+	background: #FFA83E;
+	box-shadow: 0px 0px 20px rgba(255, 168, 62, 0.15);
+	border-radius: 90px;
+}
+.cons {
+	position: absolute;
+	left: 18px;
+	top: 2px;
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.tele {
+	display: inline-block;
+	position: absolute;
+	width: 178px;
+	height: 17px;
+	left: 520px;
+	top: 691px;
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.8);
+}
+.zapis {
+	display: inline-block;
+	position: absolute;
+	width: 178px;
+	height: 17px;
+	left: 625px;
+	top: 691px;
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+hr {
+	position: absolute;
+	width: 242px;
+	height: 0px;
+	left: 599px;
+	top: 706px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
